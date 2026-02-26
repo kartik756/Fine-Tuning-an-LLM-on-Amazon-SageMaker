@@ -1,12 +1,45 @@
 Fine-Tuning an LLM on Amazon SageMaker
 
-Description: Simulated business scenario: The city's AI Hub understands the unique insights that their internal data offers. They plan to use this specific data to optimize generative AI models on AWS, ensuring that the models are tailored to local challenges. Their goal is to develop a secure and scalable solution that provides rapid inferencing, driving growth, and keeping them at the forefront of AI technology.
+📌 Project Overview
+This project demonstrates fine-tuning a pre-trained Large Language Model (LLM) using Amazon SageMaker for a domain-specific enterprise FAQ assistant.
+The goal was to adapt a foundation model to answer internal knowledge-base questions more accurately by training it on curated domain-specific datasets and deploying it as a scalable API endpoint.
+This project was implemented using AWS SimuLearn lab environment.
 
-Overview: In this AWS SimuLearn assignment, you review a real-world scenario, helping a fictional customer design a solution on AWS. After the design is completed, you build the proposed solution in a guided lab within a live AWS Management Console environment. You gain hands-on experience working with AWS services, using the same tools technology professionals use to construct AWS solutions.
+🎯 Objective
+Fine-tune a pre-trained LLM on domain-specific FAQ data
+Optimize model performance for accuracy and response relevance
+Deploy the fine-tuned model to a SageMaker endpoint
+Integrate the endpoint with a serverless API architecture
+Enable real-time inference via API Gateway + Lambda
 
-Objectives: Identify the key features of Amazon Bedrock, Amazon Kendra, and AWS serverless services. Explain the concept of Retrieval Augmented Generation (RAG) and how it applies to building an AI-powered chatbot. Determine how to use Amazon Bedrock and Amazon Kendra to index and retrieve data from a knowledge base for chatbot interactions. Demonstrate how to construct a fully functional generative AI-powered chatbot for a specific use case, integrating Amazon serverless services to efficiently handle application code execution.
+⚙️ Fine-Tuning Strategy
+Loaded pre-trained foundation model
+Used supervised fine-tuning approach
+Configured:
+Learning rate
+Batch size
+Epoch count
+Monitored training metrics:
+Loss
+Validation loss
+Optimization techniques:
+Reduced overfitting using validation split
+Adjusted learning rate scheduler
+Used early stopping criteria
 
-AWS Services: AWS Amplify, Amazon API Gateway, Amazon Bedrock, AWS CloudFormation, Amazon CloudFront, Amazon Cognito, AWS Lambda, Amazon Simple Storage Service.
+🚀 Deployment
+After training:
+Model artifacts stored in S3
+Created SageMaker model object
+Configured endpoint configuration
+Deployed real-time inference endpoint
+Tested endpoint using boto3 invoke_endpoint API
+
+📈 Results
+Improved domain response relevance compared to base model
+Reduced hallucination in enterprise-specific queries
+Achieved lower validation loss after fine-tuning
+Enabled production-ready deployment via scalable endpoint
 
 My architecture:
 <img width="1440" height="860" alt="Fine-Tuning-an-LLM-on-Amazon-SageMaker" src="https://github.com/user-attachments/assets/caf12fb7-f1b5-4e03-aa85-6d692e643346" />
