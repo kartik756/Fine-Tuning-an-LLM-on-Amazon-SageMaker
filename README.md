@@ -1,4 +1,4 @@
-# Fine-Tuning-an-LLM-on-Amazon-SageMaker
+<img width="1152" height="896" alt="Serverless-Chatbot-Using-Private-Data_kartik_patil" src="https://github.com/user-attachments/assets/4882737d-ee77-433a-be91-7dbcfa69bfc0" /># Fine-Tuning-an-LLM-on-Amazon-SageMaker
 
 Fine-Tuning an LLM on Amazon SageMaker
 
@@ -12,3 +12,7 @@ AWS Services: AWS Amplify, Amazon API Gateway, Amazon Bedrock, AWS CloudFormatio
 
 My architecture:
 <img width="1440" height="860" alt="Fine-Tuning-an-LLM-on-Amazon-SageMaker" src="https://github.com/user-attachments/assets/caf12fb7-f1b5-4e03-aa85-6d692e643346" />
+
+Proof of completion:
+<img width="1152" height="896" alt="FIne-tuning-LLM-kartik_Patil" src="https://github.com/user-attachments/assets/9c552675-3b47-4052-a105-862963c4647a" />
+
