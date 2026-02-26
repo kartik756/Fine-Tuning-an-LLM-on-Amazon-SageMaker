@@ -1,5 +1,3 @@
-<img width="1152" height="896" alt="Serverless-Chatbot-Using-Private-Data_kartik_patil" src="https://github.com/user-attachments/assets/4882737d-ee77-433a-be91-7dbcfa69bfc0" /># Fine-Tuning-an-LLM-on-Amazon-SageMaker
-
 Fine-Tuning an LLM on Amazon SageMaker
 
 Description: Simulated business scenario: The city's AI Hub understands the unique insights that their internal data offers. They plan to use this specific data to optimize generative AI models on AWS, ensuring that the models are tailored to local challenges. Their goal is to develop a secure and scalable solution that provides rapid inferencing, driving growth, and keeping them at the forefront of AI technology.
